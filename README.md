@@ -6,5 +6,5 @@ const expireAt: Date = DateTool.fromNow().appendDays(this.freeBillsDurationInDay
 ```
 
 ```ts
-const newExpireDate: Date = DateTool.fromDate(s.expireAt).appendDays(durationInDays).toDate()
+const newExpireDate: Date = DateTool.fromDate(subscription.expireAt).appendDays(durationInDays).toDate()
 ```
